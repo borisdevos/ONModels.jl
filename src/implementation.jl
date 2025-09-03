@@ -289,7 +289,7 @@ function classical_RP2(
     elt::Type{<:Number}=ComplexF64,
     symmetry::Type{<:Sector}=SU2Irrep,
     d::Int=2;
-    beta::Float64=0.8,
+    beta::Union{ComplexF64, Float64}=0.8,
     l_max::Int=2,
     convention::Int=1,
 )
