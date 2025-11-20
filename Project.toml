@@ -14,7 +14,7 @@ WignerSymbols = "9f57e263-0b3d-5e2e-b1be-24f2bb48858b"
 [compat]
 Jacobi = "0.7.0"
 QuadGK = "2.11.2"
-TensorKit = "0.14.5"
+TensorKit = "0.14.5, 0.15.3"
 WignerSymbols = "2.0.0"
 julia = "1.10"
 
